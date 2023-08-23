@@ -1,10 +1,47 @@
-/*font-family: 'Kaushan Script', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Wix Madefor Display', sans-serif;*/
-h1 {
-  font-family: Montserrat;
+:root {
+  --primary-color: #55928c;
+  --text-color: #333333;
+  --accent-color: #007f7f;
+  --project-section-background: #fafafa;
+  --highlight-color: #9900ff;
+  --background-color: #f5f5f5;
+  --primary-font: "Wix Madefor Display", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+  --cursive-font: "Kaushan Script", cursive;
+}
+body {
+  font-family: Wix Madefor Display;
+  margin-top: 60px !important;
+  background: #f5f5f5;
 }
 
-h2 {
-  font-family: Wix Madefor Display;
+.hero {
+  text-align: center;
+  color: var(--text-color) !important;
+}
+
+h2,
+p {
+  font-size: 25px !important;
+}
+
+h1 {
+  font-size: 80px !important;
+  color: var(--primary-color) !important;
+}
+
+.hero-btn {
+  background: var(--primary-color) !important;
+  padding: 16px !important;
+  font-size: 17px !important;
+  margin-top: 10px;
+}
+
+.hero-link {
+  text-decoration: none !important;
+  color: var(--text-color);
+}
+
+.hero-link:hover {
+  color: white;
 }
