@@ -39,9 +39,14 @@ h1 {
 
 .hero-link {
   text-decoration: none !important;
-  color: var(--text-color);
+  color: white;
 }
 
-.hero-link:hover {
-  color: white;
+.description {
+  text-align: center;
+  padding: 24px;
+}
+
+.project-heading {
+  font-weight: bold;
 }
