@@ -9,32 +9,38 @@
   --secondary-font: "Montserrat", sans-serif;
   --cursive-font: "Kaushan Script", cursive;
 }
+
 body {
   font-family: Wix Madefor Display;
-  margin-top: 60px !important;
   background: #f5f5f5;
+}
+
+h1 {
+  font-size: 85px !important;
+  color: var(--primary-color) !important;
+  font-style: var(--secondary-font) !important;
+}
+
+h2 {
+  font-size: 35px !important;
+}
+
+p {
+  font-size: 25px;
 }
 
 .hero {
   text-align: center;
   color: var(--text-color) !important;
-}
-
-h2,
-p {
-  font-size: 25px !important;
-}
-
-h1 {
-  font-size: 80px !important;
-  color: var(--primary-color) !important;
+  padding-top: 150px !important;
+  padding-bottom: 80px;
 }
 
 .hero-btn {
   background: var(--primary-color) !important;
-  padding: 16px !important;
-  font-size: 17px !important;
-  margin-top: 10px;
+  padding: 20px !important;
+  font-size: 22px !important;
+  margin-top: 30px;
 }
 
 .hero-link {
@@ -43,10 +49,87 @@ h1 {
 }
 
 .description {
-  text-align: center;
-  padding: 24px;
+  text-align: left;
+  padding: 30px 20px 30px 40px !important;
+  line-height: 1.8;
 }
 
 .project-heading {
   font-weight: bold;
+  font-size: 20px;
+}
+
+.col-sm-3 {
+  width: 30% !important;
+  margin: 10px;
+  text-align: center;
+}
+
+.weather-column {
+  margin-left: 50px;
+}
+
+.project-btn {
+  display: block;
+  margin-left: 40px;
+  background: var(--accent-color);
+  border: transparent;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .col-sm-3 {
+    width: 70% !important;
+    margin: 40px auto;
+    text-align: center;
+  }
+  .description {
+    text-align: left;
+    padding: 20px 30px 20px 44px !important;
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    font-size: 68px !important;
+  }
+
+  h2 {
+    font-size: 30px !important;
+  }
+
+  p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-sm-3 {
+    width: 80% !important;
+    margin: 40px auto;
+    text-align: center;
+  }
+  .description {
+    text-align: left;
+    padding: 10px 10px 10px 15px !important;
+  }
+
+  .project-btn {
+    margin-left: 10px;
+  }
+
+  .hero {
+    padding-bottom: 0;
+  }
+
+  h1 {
+    font-size: 34px !important;
+  }
+
+  h2 {
+    font-size: 21px !important;
+  }
+
+  p {
+    font-size: 16px;
+  }
 }
