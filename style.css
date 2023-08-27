@@ -29,6 +29,14 @@ p {
   font-size: 25px;
 }
 
+nav a {
+  color: #f5f5f5 !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
 .hero {
   text-align: center;
   color: var(--text-color) !important;
@@ -75,6 +83,35 @@ p {
   background: var(--accent-color);
   border: transparent;
   color: white;
+}
+
+.home-about-me {
+  text-align: center;
+}
+
+.home-about-me div {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.home-about-me p {
+  margin: 115px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: var(--accent-color) !important;
+  text-decoration: underline;
+}
+
+.connect {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 @media (max-width: 992px) {
