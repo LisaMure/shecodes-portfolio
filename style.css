@@ -44,19 +44,23 @@ nav a {
   padding-bottom: 80px;
 }
 
-.hero-btn {
+.homepage-btn {
   background: var(--primary-color) !important;
   padding: 20px !important;
   font-size: 22px !important;
   margin-top: 30px;
 }
 
-.hero-link {
+.homepage-link {
   text-decoration: none !important;
   color: white;
 }
 
-.description {
+.home-projects {
+  margin: 5px auto !important;
+}
+
+.project-description {
   text-align: left;
   padding: 30px 20px 30px 40px !important;
   line-height: 1.8;
@@ -67,14 +71,18 @@ nav a {
   font-size: 20px;
 }
 
-.col-sm-3 {
-  width: 30% !important;
-  margin: 10px;
-  text-align: center;
+.portfolio-phone {
+  margin-top: 8px;
 }
 
-.weather-column {
-  margin-left: 50px;
+.croissant {
+  margin-top: 28px;
+}
+
+.col-sm-3 {
+  width: 31% !important;
+  margin-left: 14px;
+  text-align: center;
 }
 
 .project-btn {
@@ -100,11 +108,13 @@ nav a {
   margin-bottom: 10px;
 }
 
-li a {
+li a,
+.social-link {
   text-decoration: none;
 }
 
-li a:hover {
+li a:hover,
+.social-link:hover {
   color: var(--accent-color) !important;
   text-decoration: underline;
 }
@@ -114,13 +124,85 @@ li a:hover {
   font-weight: bold;
 }
 
+.about-intro {
+  margin-left: 50px;
+}
+
+.about-intro h1 {
+  font-size: 60px !important;
+  margin-top: 100px !important;
+}
+
+.about-page,
+.experience,
+.education {
+  margin-left: 40px !important;
+}
+
+.about-page h2,
+.experience h2,
+.education h2 {
+  font-size: 50px !important;
+}
+
+.about-page p {
+  font-size: 20px !important;
+}
+
+.experience,
+.education {
+  margin-bottom: 80px;
+  margin-right: 40px;
+}
+
+.projects-intro {
+  text-align: center;
+  margin-top: 120px !important;
+}
+
+.projects-intro h1 {
+  font-size: 60px !important;
+}
+
+.app-heading {
+  font-size: 25px;
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+
+.app-description {
+  font-size: 20px;
+}
+
+.contact-page {
+  margin-bottom: 100px;
+}
+
+.contact-intro {
+  margin-left: 100px !important;
+  margin-top: 120px !important;
+}
+
+.contact-col {
+  background-color: rgb(255 255 255 / 0.3);
+  backdrop-filter: blur(20px);
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+.social-link {
+  font-size: 16px !important;
+}
+
 @media (max-width: 992px) {
   .col-sm-3 {
     width: 70% !important;
     margin: 40px auto;
     text-align: center;
   }
-  .description {
+  .project-description {
     text-align: left;
     padding: 20px 30px 20px 44px !important;
     margin-bottom: 5px;
@@ -145,7 +227,7 @@ li a:hover {
     margin: 40px auto;
     text-align: center;
   }
-  .description {
+  .project-description {
     text-align: left;
     padding: 10px 10px 10px 15px !important;
   }
