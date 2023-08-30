@@ -32,10 +32,10 @@
   <body>
     <nav
       class="navbar fixed-top navbar-expand-lg bg-body-tertiary py-3 px-4"
-      style="background: #367588 !important"
+      style="background: var(--main-color) !important"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html" title="Home"
+        <a class="navbar-brand" href="index.html" title="Home"
           >Melisa Mureriwa</a
         >
         <button
@@ -54,18 +54,14 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
-            <a
-              class="nav-link active"
-              aria-current="page"
-              href="/index.html"
-              title="Home"
+            <a class="nav-link active" aria-current="page" href="/" title="Home"
               >Home</a
             >
             <a class="nav-link" href="/about.html" title="About me">About me</a>
-            <a class="nav-link" href="/projects.html" title="My projects"
+            <a class="nav-link" href="/projects.html" title="My Projects"
               >My projects</a
             >
-            <a class="nav-link" href="/about.html#contact" title="Contact"
+            <a class="nav-link" href="/contact.html" title="Contact"
               >Contact me</a
             >
           </div>
@@ -82,47 +78,45 @@
       <div class="row">
         <div class="col-sm border p-5" style="background: #55928c">
           <div class="contact-col col-sm border p-5 d-flex">
-            <div class="col-sm-6">
+            <div class="col-sm-6 name">
               <h2>Melisa Mureriwa</h2>
               <p>Front-end Developer</p>
             </div>
             <div class="col-sm-6 contact">
               <h2 class="mb-3">Contact Information</h2>
-              <p>Email: melisamureriwa@gmail.com</p>
-              <p>Contact number: +27 123 456 7890</p>
+              <p>
+                Email:
+                <a href="mailto:melisamureriwa@gmail.com"
+                  >melisamureriwa@gmail.com</a
+                >
+              </p>
+              <p>Cell: <a href="tel:+27-64-241-8630"> +27-64-241-8630</a></p>
               <h2 class="mb-3 mt-5">Social media</h2>
               <div class="mb-3">
-                <a class="text-body-secondary mb-5 social-link" href="#">
-                  <i
-                    class="fa-brands fa-linkedin fa-2xl pe-2"
-                    style="color: #367588"
-                  ></i
+                <a
+                  class="text-body-secondary mb-5 contact-social-link"
+                  href="#"
+                >
+                  <i class="icons fa-brands fa-linkedin fa-2xl pe-2"></i
                   >LinkedIn</a
                 >
               </div>
               <div class="mb-3">
-                <a class="text-body-secondary social-link" href="#"
-                  ><i
-                    class="fa-brands fa-square-github fa-2xl pe-2"
-                    style="color: #367588"
-                  ></i
+                <a class="text-body-secondary contact-social-link" href="#"
+                  ><i class="icons fa-brands fa-square-github fa-2xl pe-2"></i
                   >Github</a
                 >
               </div>
               <div class="mb-3">
-                <a class="text-body-secondary mb-2 social-link" href="#"
-                  ><i
-                    class="fa-brands fa-square-facebook fa-2xl pe-2"
-                    style="color: #367588"
-                  ></i
+                <a class="text-body-secondary mb-2 contact-social-link" href="#"
+                  ><i class="icons fa-brands fa-square-facebook fa-2xl pe-2"></i
                   >Facebook</a
                 >
               </div>
               <div class="mb-3">
-                <a class="text-body-secondary mb-2 social-link" href=""
+                <a class="text-body-secondary mb-2 contact-social-link" href=""
                   ><i
-                    class="fa-brands fa-square-instagram fa-2xl pe-2"
-                    style="color: #367588"
+                    class="icons fa-brands fa-square-instagram fa-2xl pe-2"
                   ></i
                   >Instagram</a
                 >
@@ -141,28 +135,18 @@
           <li class="ms-3 mb-2 connect">Connect with me</li>
           <li class="ms-3 mb-3">
             <a class="text-body-secondary" href="#"
-              ><i
-                class="fa-sharp fa-solid fa-envelope fa-lg pe-2"
-                style="color: #367588"
-              ></i
+              ><i class="icons fa-sharp fa-solid fa-envelope fa-lg pe-2"></i
               >Email</a
             >
           </li>
           <li class="ms-3 mb-3">
             <a class="text-body-secondary" href="#">
-              <i
-                class="fa-brands fa-linkedin fa-xl pe-2"
-                style="color: #367588"
-              ></i
-              >LinkedIn</a
+              <i class="icons fa-brands fa-linkedin fa-xl pe-2"></i>LinkedIn</a
             >
           </li>
           <li class="ms-3 mb-3">
             <a class="text-body-secondary" href="#"
-              ><i
-                class="fa-brands fa-square-github fa-xl pe-2"
-                style="color: #367588"
-              ></i
+              ><i class="icons fa-brands fa-square-github fa-xl pe-2"></i
               >Github</a
             >
           </li>
@@ -173,37 +157,24 @@
           >
             <li class="mb-2">
               <a class="text-body-secondary" href="#">
-                <i
-                  class="fa-solid fa-house fa-lg pe-2"
-                  style="color: #367588"
-                ></i
-                >Home</a
+                <i class="icons fa-solid fa-house fa-lg pe-2"></i>Home</a
               >
             </li>
             <li class="mb-2">
               <a class="text-body-secondary" href="#">
-                <i
-                  class="fa-sharp fa-solid fa-house-user fa-lg pe-2"
-                  style="color: #367588"
-                ></i
+                <i class="icons fa-sharp fa-solid fa-house-user fa-lg pe-2"></i
                 >About me</a
               >
             </li>
             <li class="mb-2">
               <a class="text-body-secondary" href="#"
-                ><i
-                  class="fa-solid fa-laptop-code fa-lg pe-2"
-                  style="color: #367588"
-                ></i
-                >My Projects</a
+                ><i class="icons fa-solid fa-laptop-code fa-lg pe-2"></i>My
+                Projects</a
               >
             </li>
             <li class="mb-2">
               <a class="text-body-secondary" href="#"
-                ><i
-                  class="fa-solid fa-square-phone-flip fa-xl pe-2"
-                  style="color: #367588"
-                ></i
+                ><i class="icons fa-solid fa-square-phone-flip fa-xl pe-2"></i
                 >Contact me</a
               >
             </li>
