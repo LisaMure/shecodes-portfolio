@@ -9,31 +9,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
     <link rel="stylesheet" href="/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script
       src="https://kit.fontawesome.com/c38dce8968.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
   </head>
 
   <body>
     <nav
       class="navbar fixed-top navbar-expand-lg bg-body-tertiary py-3 px-4"
-      style="background: var(--main-color) !important"
-    >
+      style="background: var(--main-color) !important">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html" title="Home"
           >Melisa Mureriwa</a
@@ -45,14 +40,12 @@
           data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
           class="collapse navbar-collapse justify-content-end"
-          id="navbarNavAltMarkup"
-        >
+          id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="/" title="Home"
               >Home</a
@@ -75,123 +68,145 @@
     </div>
 
     <div class="container projects-container">
+      <br id="weather" />
       <div class="row border-bottom border-top mb-5 mt-5">
-        <div class="col-6 mb-5 d-none d-sm-block">
+        <div class="project-col col-sm-6 mb-5">
           <img
             src="images/weather.png"
             class="img-fluid pt-3"
             width="380px"
-            alt="weather-app"
-          />
+            alt="weather-app" />
         </div>
-        <div class="col-6 text-start mb-5">
+        <div class="project-col col-sm-6 text-start mb-5">
           <h2 class="app-heading">Weather App</h2>
           <p class="app-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
+            A dynamic weather application created using HTML, CSS, and
+            Javascript. This project showcases my ability to integrate real-time
+            data and provide users with accurate weather information in an
+            engaging and user-friendly format.
           </p>
           <button class="app-btn btn btn-branded mb-5">
-            <a href="/index.html#home-projects" class="netlify-link"
+            <a
+              href="https://melisa-weather-application.netlify.app/"
+              class="netlify-link"
+              target="_blank"
               >View project on Netlify</a
             >
           </button>
         </div>
       </div>
-      <div class="row border-bottom my-5">
-        <div class="col-6 text-start mb-5">
+      <br id="responsive" />
+      <div class="project-row row border-bottom my-5">
+        <div
+          class="project-col col-sm-6 text-start mb-5 order-sm-first order-last">
           <h2 class="app-heading">Responsive Portfolio</h2>
           <p class="app-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
+            An interactive portfolio website designed using Bootstrap, CSS, and
+            HTML. This project demonstrates my knack for designing layouts that
+            fluidly adapt to different screen sizes, ensuring a consistent and
+            visually pleasing experience across devices.
           </p>
           <button class="app-btn btn btn-branded mb-5">
-            <a href="/index.html#home-projects" class="netlify-link"
+            <a
+              href="https://lisa-responsive-portfolio.netlify.app/"
+              class="netlify-link"
+              target="_blank"
               >View project on Netlify</a
             >
           </button>
         </div>
-        <div class="col-6 mb-5 d-none d-sm-block">
+        <div class="project-col col-sm-6 mb-5">
           <img
             src="images/portfolio-phone.png"
             class="img-fluid ps-5"
             alt="portfolio-project"
-            width="220px"
-          />
+            width="220px" />
         </div>
       </div>
+      <br id="croissant" />
       <div class="row border-bottom my-5">
-        <div class="col-6 d-none d-sm-block">
+        <div class="project-col col-sm-6">
           <img
             src="images/croissant.png"
             class="img-fluid"
             alt="croissant-project"
-            width="410px"
-          />
+            width="410px" />
         </div>
-        <div class="col-6 text-start mb-5">
+        <div class="project-col col-sm-6 text-start mb-5" id="croissant">
           <h2 class="app-heading">Croissant Blog</h2>
           <p class="app-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
+            Discover the Croissant Blog, a multi-page project that utilizes
+            Bootstrap, CSS, and HTML to create a visually appealing and
+            organized blog platform. With flex images on rows and a focus on
+            responsive design, this project highlights my attention to both
+            aesthetics and user experience.
           </p>
           <button class="app-btn btn btn-branded mb-5">
-            <a href="/index.html#home-projects" class="netlify-link"
+            <a
+              href="https://flaky-delights.netlify.app/"
+              class="netlify-link"
+              target="_blank"
               >View project on Netlify</a
             >
           </button>
         </div>
       </div>
       <div class="row my-5">
-        <div class="col-6 text-start mb-5">
+        <div
+          class="project-col col-sm-6 text-start mb-5 order-sm-first order-last">
           <h2 class="app-heading mt-5">Hobby Project</h2>
           <p class="app-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
+            Dive into the world of music with my Hobby Project, where I've
+            combined basic Javascript, CSS, and HTML to create an interactive
+            experience centered around music. This project reflects my passion
+            for incorporating interactivity and aesthetics into even the
+            simplest web applications.
           </p>
           <button class="app-btn btn btn-branded mb-5">
-            <a href="/index.html#home-projects" class="netlify-link"
+            <a
+              href="https://lisa-music-project.netlify.app/"
+              class="netlify-link"
+              target="_blank"
               >View project on Netlify</a
             >
           </button>
         </div>
-        <div class="col-6 mb-5 d-none d-sm-block">
+        <div class="project-col col-sm-6 mb-5">
           <img
             src="images/music-app.png"
-            class="img-fluid ps-5"
+            class="img-fluid ps-5 mt-3"
             alt="portfolio-project"
-            width="550px"
-          />
+            width="550px" />
         </div>
       </div>
     </div>
 
     <div class="container border-top mt-5">
       <footer
-        class="d-flex flex-wrap justify-content-between align-items-center py-2 my-3"
-      >
+        class="d-flex flex-wrap justify-content-between align-items-center py-2 my-3">
         <ul class="nav col-sm-6 justify-content-start list-unstyled d-block">
           <li class="ms-3 mb-2 connect">Connect with me</li>
           <li class="ms-3 mb-3">
-            <a class="text-body-secondary" href="#"
+            <a
+              class="text-body-secondary"
+              href="mailto:melisamureriwa@gmail.com"
               ><i class="icons fa-sharp fa-solid fa-envelope fa-lg pe-2"></i
               >Email</a
             >
           </li>
           <li class="ms-3 mb-3">
-            <a class="text-body-secondary" href="#">
+            <a
+              class="text-body-secondary"
+              href="https://za.linkedin.com/"
+              target="_blank">
               <i class="icons fa-brands fa-linkedin fa-xl pe-2"></i>LinkedIn</a
             >
           </li>
           <li class="ms-3 mb-3">
-            <a class="text-body-secondary" href="#"
+            <a
+              class="text-body-secondary"
+              href="https://github.com/"
+              target="_blank"
               ><i class="icons fa-brands fa-square-github fa-xl pe-2"></i
               >Github</a
             >
@@ -199,27 +214,26 @@
         </ul>
         <div class="col-sm-6 d-flex justify-content-end">
           <ul
-            class="nav col-sm-6 justify-content-start list-unstyled d-block mt-3"
-          >
+            class="nav col-sm-6 justify-content-start list-unstyled d-block mt-3">
             <li class="mb-2">
-              <a class="text-body-secondary" href="#">
+              <a class="text-body-secondary" href="/index.html">
                 <i class="icons fa-solid fa-house fa-lg pe-2"></i>Home</a
               >
             </li>
             <li class="mb-2">
-              <a class="text-body-secondary" href="#">
+              <a class="text-body-secondary" href="/about.html">
                 <i class="icons fa-sharp fa-solid fa-house-user fa-lg pe-2"></i
                 >About me</a
               >
             </li>
             <li class="mb-2">
-              <a class="text-body-secondary" href="#"
+              <a class="text-body-secondary" href="/projects.html"
                 ><i class="icons fa-solid fa-laptop-code fa-lg pe-2"></i>My
                 Projects</a
               >
             </li>
             <li class="mb-2">
-              <a class="text-body-secondary" href="#"
+              <a class="text-body-secondary" href="/contact.html"
                 ><i class="icons fa-solid fa-square-phone-flip fa-xl pe-2"></i
                 >Contact me</a
               >

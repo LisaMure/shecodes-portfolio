@@ -6,7 +6,6 @@
   --text-color: #39393a;
   --secondary-text: #012638;
   --project-section-background: #fafafa;
-  --highlight-color: #441564;
   --background-color: #f5f5f5;
   --primary-font: "Wix Madefor Display", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
@@ -98,19 +97,25 @@ nav a {
   margin-top: 28px;
 }
 
+.responsive-btn {
+  margin-top: 30px !important;
+}
+
 .project-btn {
   display: block;
   margin-left: 40px;
   background: var(--secondary-color);
   border: transparent;
-  color: white;
   transition: all 200ms ease-in-out;
 }
 
 .project-btn:hover {
-  border: 2px solid var(--secondary-color);
-  background: white;
-  color: var(--secondary-color);
+  border: 2px solid #893a3e;
+  background: rgb(65, 12, 12);
+}
+
+.project-btn a {
+  color: white;
 }
 
 .home-about-me {
@@ -131,6 +136,7 @@ nav a {
 }
 
 li a,
+.project-btn a,
 .contact a,
 .contact-social-link {
   text-decoration: none;
@@ -155,7 +161,7 @@ li a:hover {
 
 .about-intro h1 {
   font-size: 60px !important;
-  margin-top: 100px !important;
+  margin-top: 90px !important;
   color: var(--secondary-text) !important;
 }
 
@@ -178,8 +184,15 @@ li a:hover {
   color: var(--secondary-color) !important;
 }
 
-.about-page p {
+.about-page p,
+.skill-description {
   font-size: 20px !important;
+}
+
+.profile {
+  background: var(--secondary-text);
+  margin-top: -50px;
+  box-shadow: 5px 5px 5px rgb(211, 210, 210);
 }
 
 .experience,
@@ -214,12 +227,8 @@ li a:hover {
 }
 
 .app-btn:hover {
-  border: 2px solid var(--main-color) !important;
-  background: white !important;
-}
-
-.app-btn a:hover {
-  color: var(--main-color);
+  border: 2px solid var(--accent-color) !important;
+  background: var(--secondary-text) !important;
 }
 
 .contact-page {
@@ -290,34 +299,41 @@ li a:hover {
     font-size: 68px !important;
   }
 
-  h2 {
+  h2,
+  .home-intro {
     font-size: 30px !important;
   }
 
   p {
     font-size: 22px;
   }
+
+  .home-intro-paragraph {
+    font-size: 18px;
+    line-height: 2;
+    text-align: left;
+  }
+
+  .col-sm-8 {
+    width: 50% !important;
+    margin-left: 0 !important;
+  }
+
+  .col-sm-4 {
+    width: 50% !important;
+    margin-left: 0 !important;
+  }
+
+  .col-sm-4 img {
+    margin-left: 0 !important;
+    padding: 0 !important;
+    margin-top: 90px !important;
+  }
+  .contact p {
+    font-size: 16px;
 }
 
 @media (max-width: 576px) {
-  .col-sm-3 {
-    width: 80% !important;
-    margin: 40px auto;
-    text-align: center;
-  }
-  .project-description {
-    text-align: left;
-    padding: 10px 10px 10px 15px !important;
-  }
-
-  .project-btn {
-    margin-left: 10px;
-  }
-
-  .hero {
-    padding-bottom: 0;
-  }
-
   h1 {
     font-size: 34px !important;
   }
@@ -328,9 +344,82 @@ li a:hover {
 
   p {
     font-size: 16px;
+    line-height: 2;
+  }
+
+  .col-sm-3 {
+    width: 80% !important;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .hero {
+    padding-bottom: 0;
+  }
+
+  .project-heading {
+    font-size: 18px;
+  }
+
+  .project-description {
+    text-align: left;
+    padding: 10px 10px 10px 15px !important;
+    font-size: 15px;
+    line-height: 2;
+  }
+
+  .project-btn {
+    margin-left: 10px;
   }
 
   .home-about-me p {
     margin: 10px;
+  }
+
+  .home-intro-paragraph {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .about-intro h1 {
+    font-size: 40px !important;
+  }
+
+  .project-col {
+    width: 80% !important;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .col-sm-4 img {
+    margin: 0 auto !important;
+    margin-bottom: 30px !important;
+  }
+
+  .contact-intro {
+    margin-left: 30px !important;
+  }
+
+  .contact-intro h3 {
+    font-size: 18px !important;
+  }
+
+  div .contact-column {
+    width: 85% !important;
+    margin: 0 auto;
+    padding: 10px !important;
+  }
+
+  .contact {
+    width: 100%;
+    margin-left: -30px;
+  }
+
+  .contact h2 {
+    font-size: 19px !important;
+  }
+
+  .contact p {
+    font-size: 11px;
   }
 }
